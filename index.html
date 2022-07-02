@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sina & Soghol Wedding</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 </head>
 <body>
     <style>
@@ -78,7 +82,7 @@
             font-family: 'nastaliq';
             display: flex;
             justify-content: space-between;
-            width: 40%;
+            width: 50%;
             font-size: 32px;
            
         }
@@ -91,20 +95,32 @@
             font-family: 'nastaliq';
             line-height: 26px;
         }
+        .animate__delay-200 {
+            animation-delay: 500ms;
+        }
+        .animate__delay-1000 {
+            animation-delay: 1000ms;
+        }
+        .animate__delay-1500 {
+            animation-delay: 1500ms;
+        }
+        .animate__delay-2000 {
+            animation-delay: 2000ms;
+        }
     </style>
     <div class="main-wrapper">
-        <img class="diamond-bg desktop" src="./gif.gif" alt="diamon">
-        <img class="diamond-bg phone" src="./gif2.gif" alt="diamon">
+        <img class="diamond-bg desktop animate__animated animate__fadeIn" src="./gif.gif" alt="diamon">
+        <img class="diamond-bg phone animate__animated animate__fadeIn" src="./gif2.gif" alt="diamon">
         <div class="text-wrapper">
-            <span class="eng-intro">Welcome to the wedding of</span>
-            <span class="eng-name">Sogol & Sina</span>
+            <span class="eng-intro animate__animated animate__fadeIn">Welcome to the wedding of</span>
+            <span class="eng-name animate__animated animate__fadeIn animate__delay-200">Sogol & Sina</span>
             <br>
-            <span class="persian-one">
+            <span class="persian-one animate__animated animate__fadeIn animate__delay-1000">
                 آغاز زندگی مشترک خود را جشن می گیریم.
 حضور پر مهر شما سرور و نشاط جمع ما را دو چندان خواهد کرد. 
 منتظریم تا با قدوم مبارک تان مجلس بزم و ضیافت شام ما را مزین فرمایند .
             </span>
-            <div class="persian-names">
+            <div class="persian-names animate__animated animate__fadeIn animate__delay-1500">
                 <span>
                     احمری
                 </span>
@@ -112,7 +128,7 @@
                     عبدالهی فرد
                 </span>
             </div>
-            <div class="persian-location">
+            <div class="persian-location animate__animated animate__fadeIn animate__delay-2000">
                 <span>
                     مکان : تبریز، باغ شخصی
                 </span>
